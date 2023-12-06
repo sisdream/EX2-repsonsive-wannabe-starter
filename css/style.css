@@ -127,6 +127,24 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
 ************************************************/
+
+
+/* media bonus */
+
+@media screen and (max-width:1160px){
+    .container .row{
+        width: calc(100% - 40px);
+    }
+}
+
+/* media tablet */
+
+@media screen and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+}
+
 /* media mobile */
 
 @media screen and (max-width:480px){
@@ -157,24 +175,6 @@ img {
         background-color: #222222;
     }
 }
-
-/* media tablet */
-
-@media screen and (min-width:768px){
-    .container{
-        width: 100%;
-    }
-}
-
-/* media bonus */
-
-@media screen and (min-width:1160px){
-    .container .row{
-        width: calc(100% - 40px);
-    }
-}
-
-
 
 
 
