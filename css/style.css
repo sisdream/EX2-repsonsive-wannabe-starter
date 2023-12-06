@@ -127,6 +127,7 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
 ************************************************/
+
 /* media mobile */
 
 @media screen and (max-width:480px){
@@ -150,9 +151,7 @@ img {
     .why-us .col{
         width: 100%;
     }
-    
 }
-
 
 /* media tablet */
 
@@ -166,7 +165,6 @@ img {
         flex-wrap: wrap;
     }
 }
-
 
 /* media bonus */
 
