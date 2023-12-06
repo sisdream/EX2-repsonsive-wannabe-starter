@@ -139,46 +139,35 @@ img {
         width: 100%;
     }
     .row{
-          display: flex;
-          flex-direction: column;
-          flex-wrap: wrap;
-          gap: 50px;
-        }
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
     .lessons .col,
     .steps .col,
     .why-us .col{
         width: 100%;
+    }
+    .steps{
+        margin: 0;
+    }
+    .why-us{
+        background-color: #222222;
     }
 }
 
 /* media tablet */
 
 @media screen and (min-width:768px){
-    header{
-      display: flex;
-      flex-direction: column;
-    }
-    main section{
-        display: flex;
-        flex-wrap: wrap;
+    .container{
+        width: 100%;
     }
 }
 
 /* media bonus */
 
 @media screen and (min-width:1160px){
-    header{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    main{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
     .container .row{
         width: calc(100% - 40px);
     }
