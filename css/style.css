@@ -179,6 +179,9 @@ img {
         align-items: center;
         justify-content: center;
     }
+    .container .row{
+        width: calc(100% - 40px);
+    }
 }
 
 
