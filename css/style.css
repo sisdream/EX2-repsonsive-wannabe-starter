@@ -133,7 +133,6 @@ img {
     header{
         display: flex;
         flex-direction: column;
-
     }
     .container{
         padding: 0;
@@ -169,14 +168,12 @@ img {
 
 @media screen and (min-width:1160px){
     header{
-        overflow-x: hidden;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
     main{
-        overflow-x: hidden;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
